@@ -1,8 +1,100 @@
 <!doctype html>
 <html lang="fr">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atlas Voyages – Explorer le monde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    
+<body>
+
+    <header class="HEADER">
+        <p>Atlas Voyage</p>
+    </header>
+    <main>
+        <section>
+            <div class="hero">
+                <h1>Explorer le monde</h1>
+                <p>Choisis un contient,parcours les pays et trouve la prochaine destination</p>
+            </div>
+        </section>
+        <section class="filtrage">
+            <div class="form">
+                <label for="continent">Continent</label>
+                <select id="continent">
+                    <option value="Africa">Afrique</option>
+                    <option value="Asia">Asie</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Americas">Amérique</option>
+                    <option value="Oceania">Océanie</option>
+                </select>
+            </div>
+            <div class="form2">
+                <label for="search">Rechercher un pays</label>
+                <input type="text" id="search" placeholder="Ex: Morocco">
+            </div>
+            <div class="form3">
+                <boutton>
+                    trier par population
+                </boutton>
+            </div>
+        </section>
+
+       <section class="countries">
+            <div class="MOROCCO">
+                <div class="photo">
+
+                </div>
+                <h6>Morocco</h6>
+                <div class="cap1">
+                    <p>Capitale</p>
+                    <h5>Rabat</h5>
+                </div>
+                <div class="pop1">
+                    <p>Population</p>
+                    <h5>37 457 971</h5>
+                </div>
+            </div>
+
+
+            <div class="Egypt">
+                <div class="photo2">
+
+                </div>
+                <h6>Egypt</h6>
+                <div class="cap2">
+                    <p>Capitale</p>
+                    <h5>Cairo</h5>
+                </div>
+                <div class="pop2">
+                    <p>Population</p>
+                    <h5>102 334 403</h5>
+                </div>
+            </div>
+
+
+
+
+            <div class="NIGERIA">
+                <div class="photo3">
+
+                </div>
+                <h6>Nigeria</h6>
+                <div class="cap3">
+                    <p>Capitale</p>
+                    <h5>Abuja</h5>
+                </div>
+                <div class="pop3">
+                    <p>Population</p>
+                    <h5>206 139 587</h5>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
